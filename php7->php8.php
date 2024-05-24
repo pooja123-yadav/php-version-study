@@ -81,3 +81,19 @@ class BankAccount
 $b = new BankAccount(12345,100);
 echo $b->balance;
 ?>
+
+<?php
+// The mixed has been available since PHP 8.0.0.
+
+<?php
+
+function upper(mixed $str): mixed
+{
+    return strtoupper($str);
+}
+
+$str = "null";
+echo upper($str);
+// note it will not work in php  7 version
+
+?>
