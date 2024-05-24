@@ -17,3 +17,6 @@ function dd($data):void
     echo '</pre>';
     die;
 }
+// Use the PHP strict_types directive to enable strict typing or strict mode.
+// In strict mode, PHP accepts only values corresponding to the type declarations and issue a TypeError exception if there’s a mismatch.
+// When you include code from another file, PHP uses the mode of the caller.
